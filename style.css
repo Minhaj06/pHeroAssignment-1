@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #444343;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.header .inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo a {
+  font-size: 40px;
+  font-weight: 600;
+  color: #474747;
+}
+
+.header .logo a span {
+  color: #fd6e0a;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-left: 30px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.header ul li a {
+  color: #474747;
+  transition: 0.3s;
+}
+
+.header ul li a:hover {
+  color: #fd6e0a;
+}
+
+.header ul li a.hire_me_btn {
+  background-color: #fd6e0a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
+}
+
+.header ul li a.hire_me_btn:hover {
+  background: transparent;
+  color: #fd6e0a;
+}
+
+/* /header */
+
+/* Home Banner */
+.home-banner {
+  background-color: #ebebeb;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.inner-home-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-banner .banner-content {
+  text-align: right;
+  width: 600px;
+}
+
+.home-banner .banner-content h1 {
+  font-size: 65px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+
+.home-banner .banner-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #fd6e0a;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fd6e0a;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* /Home Banner */
+
+/* About ME */
+.about-me {
+  margin-bottom: 100px;
+}
+.inner-about {
+  display: flex;
+}
+
+.inner-about .banner-img {
+  width: 100%;
+  margin-right: 60px;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+}
+
+.about-content h1 {
+  font-size: 50px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-content ul li {
+  margin-bottom: 10px;
+}
+.about-content ul li img {
+  margin-right: 10px;
+}
+/* /About ME */
+
+/* My Plan */
+.my-plan {
+  margin-bottom: 100px;
+}
+.inner-my-plan h1 {
+  font-size: 50px;
+  color: #151414;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.plan-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-plan {
+  text-align: center;
+}
+
+.single-plan img {
+  margin-bottom: 10px;
+}
+
+.single-plan h3 {
+  margin-bottom: 10px;
+}
+
+.single-plan h4 {
+  color: #737272;
+  font-weight: 500;
+}
+/* /My Plan */
+
+/* Call Now */
+.call-now {
+  margin-bottom: 100px;
+}
+
+.call-now-content {
+  position: relative;
+  background-image: url("images/call-now-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+  border-radius: 10px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.call-now-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #fd6e0a, #fff);
+  opacity: 0.5;
+}
+
+.call-now-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.call-now-content button {
+  border: none;
+  background-color: #fff;
+  color: #fd6e0a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* /Call Now */
+
+/* Footer */
+.footer {
+  background-color: #151414;
+  padding: 100px 0;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.footer .footer-content .footer-details {
+  width: 600px;
+}
+
+.footer .footer-content .footer-details h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-content .footer-details p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.footer .footer-content .footer-details .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer .footer-content .footer-details .social-icons .social-icon-single a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.subscribe-box h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.subscribe-box .email {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.subscribe-box .subscribe-btn {
+  border: none;
+  background-color: #fd6e0a;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* /Footer */
